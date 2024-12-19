@@ -80,7 +80,6 @@ async function getValues(rows){
 }
 
 async function getValuesByCurrency(valueStrings){
-    /* currencies = ["€", "R$"] */
     currencies = [{symbol: "€", name: "EUR"},{symbol: "R$", name: "BRL"}]
     valueArr = []
     try{
